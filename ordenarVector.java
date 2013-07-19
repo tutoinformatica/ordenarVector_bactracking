@@ -1,4 +1,4 @@
-package proba1;
+
 
 public class ordenarVector {
 	static int v [] = {1,6,3,7};
