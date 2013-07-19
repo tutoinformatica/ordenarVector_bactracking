@@ -10,7 +10,6 @@ public class ordenarVector {
 		return disponibles;
 	}
 	public static boolean  ordenar( int solucion [],boolean [] disponibles, int etapa){
-		//[1 , 4 , 2 , 5]
 		
 		boolean exito = false;
 		for(int i = 0 ; i < v.length && !exito ; i++ ){
@@ -42,8 +41,5 @@ public class ordenarVector {
 			System.out.println(solucion[i]);
 		}
 		
-		
-		//boolean[] disponibles = new boolean [v.length];
-		//disponibles  = rellenar(v);
 	}
 }
